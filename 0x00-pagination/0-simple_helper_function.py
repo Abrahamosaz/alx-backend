@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
-import math
-from typing import Tuple
 """
 function that return a tuple of start and end index for the
 pagination of the data
 """
+import math
+from typing import Tuple
 
 
 def index_range(page: int, page_size: int) -> Tuple[int, int]:
