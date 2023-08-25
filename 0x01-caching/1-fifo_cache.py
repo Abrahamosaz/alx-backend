@@ -37,7 +37,6 @@ class FIFOCache(BaseCaching):
             del self.order[0]
         if key not in self.order:
             self.order.append(key)
-        print("order data", self.order)
         self.cache_data[key] = item
 
     def get(self, key):
