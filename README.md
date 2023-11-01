@@ -1,2 +1,1 @@
-# alx-backend
-alx-backend repo
+alx backend repo
